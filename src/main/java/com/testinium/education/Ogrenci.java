@@ -8,6 +8,15 @@ public class Ogrenci {
     private String soyad;
     private Okul okul;
 
+    @Override
+    public String toString() {
+        return "Ogrenci{" +
+                "ad='" + ad + '\'' +
+                ", soyad='" + soyad + '\'' +
+                ", okul=" + okul +
+                '}';
+    }
+
     public Ogrenci() {
     }
 
