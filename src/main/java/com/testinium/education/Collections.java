@@ -1,5 +1,9 @@
 package com.testinium.education;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
 public class Collections {
 
     public static void main(String[] args) {
@@ -21,9 +25,27 @@ public class Collections {
         ogrenciList[1] = ogr2;
         ogrenciList[2] = ogr3;
 
-        for(int i = 0; i < ogrenciList.length; i++){
+        for (int i = 0; i < ogrenciList.length; i++) {
             System.out.println(ogrenciList[i]);
         }
+
+        int[][] buyukDizi = new int[20][5];
+        buyukDizi[3][4] = 4;
+
+        int[][][][] matris = new int[2][2][2][2];
+
+        List list = new ArrayList<>();
+        list.add("ahmet");
+        list.add("mehmet");
+        list.add("ali");
+        list.add("ali");
+        list.add("veli");
+        System.out.println(list);
+
+        HashMap<Integer, String> hash = new HashMap<>();
+        hash.put(new Integer(1), "isim");
+        hash.put(new Integer(2), "isim");
+        hash.put(new Integer(3), "isim");
 
 
     }
